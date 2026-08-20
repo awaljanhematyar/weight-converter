@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #95a2f7 0%, #95c70a 45%, #0f62fe 100%);
+}
+
+.container {
+  background-color: #29a6fa;
+  border-radius: 12px;
+  padding: 20px;
+  width: 320px;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2); /* subtle shadow */
+}
+
+.input-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.input {
+  padding: 10px;
+
+  /* changed from #95a2f7 (same as body background) to white,
+     so the input box is clearly visible instead of blending in */
+  background: #ffffff;
+
+  border-radius: 10px;
+  width: 70%;
+
+  /* increased from 10px to 16px so typed numbers are readable */
+  font-size: 16px;
+
+  color: darkgreen;
+
+  /* removed outline: none but added a real border instead,
+     so the field still has a visible boundary */
+  border: 2px solid #0f62fe;
+  outline: none;
+}
+
+/* new: gives a visual cue when the input is focused,
+   since we removed the default browser outline */
+.input:focus {
+  border-color: #0a3fc7;
+}
+
+.error {
+  color: red;
+}
