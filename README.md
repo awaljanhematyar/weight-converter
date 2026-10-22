@@ -4,6 +4,8 @@ JavaScript pounds-to-kilograms converter with input validation, exact conversion
 
 Part of my JavaScript practice work. Explore my complete projects on [GitHub](https://github.com/awaljanhematyar) or my [developer portfolio](https://hematyar-professional-portfolio.vercel.app/).
 
+[Live demo](https://awaljanhematyar.github.io/weight-converter/)
+
 ## Features
 
 - Convert pounds to kilograms with the factor 0.45359237.
