@@ -10,7 +10,7 @@
     <main class="container">
       <h3 class="heading">weight converter</h3>
       <div class="input-container">
-        <label for="pounds">pounds:</label>
+        <label for="input">pounds:</label>
         <input
           type="number"
           class="input"
@@ -18,8 +18,8 @@
           step="1"
           placeholder="enter number" />
       </div>
-      <p>your weight in kg is :<span class="result" id="result">300</span></p>
-      <p class="error" id="error">Error</p>
+      <p>your weight in kg is :<span class="result" id="result" aria-live="polite"></span></p>
+      <p class="error" id="error" role="status"></p>
     </main>
     <script src="script.js"></script>
   </body>
